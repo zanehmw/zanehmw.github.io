@@ -1,0 +1,29 @@
+body{
+			text-align: center;
+      		background: url("http://i.imgur.com/6gkF0WS.jpg");
+      		background-size: cover;
+      		background-position: center;
+      		color: white;
+      		font-family: arial;
+      	}
+      	 img {
+      		margin: 40px 0px 0px 0px;
+      		border: 7px solid white;
+      		border-radius: 20px;
+   		 }
+
+   		 h1 {
+   		 	font-size: 50px
+   		 }
+   		 h2 {
+   		 	font-size: 18px
+   		 }
+   		 h3 {
+   		 	font-size: 30px
+   		 }
+   		 h4 {
+   		 	font-size: 30px
+   		 }
+   		 p {
+   		 	font-size: 20px
+   		 }
