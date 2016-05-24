@@ -1,29 +1,25 @@
 body{
-  text-align: center;
-  background-color: gray;
-  background-size: cover;
-  background-position: center;
-  color: white;
-  font-family: arial;
+  background-color: "#FFBF00";
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px;
 }
-img {
-  margin: 40px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
+img{
+  height: 300px;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 50%;
+  border-color: black;
+  border: thin;
 }
-
-h1 {
-  font-size: 50px
+h1{
+  font-size: 50px;
 }
-h2 {
-  font-size: 18px
+strong{
+  font-size: 30px;
 }
-h3 {
-  font-size: 30px
-}
-h4 {
-  font-size: 30px
-}
-p {
-  font-size: 20px
+p{
+  font-size: 20px;
 }
