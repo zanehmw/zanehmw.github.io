@@ -4,7 +4,10 @@ body{
   font-style: normal;
   font-variant: normal;
 }
-ul, li{
+img{
+  margin: 0, auto;
+}
+ul{
   text-decoration: none;
 }
 img{
