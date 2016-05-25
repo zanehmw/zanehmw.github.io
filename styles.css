@@ -33,10 +33,31 @@ ul, nav{
   margin-left: 5px;
   margin-right: 15px;
   display: block;
-  position: fixed;
-  width: 20%;
 }
 
-.infowrapper{
+.column {
+  float: left;
+  position: relative;
+  border: 2px solid Tomato;
+  border-radius: 20px;
+  text-align: center;
+}
 
+.header > .column,
+.footer > .column {
+  padding: 25px;
+}
+
+.middle > .column {
+  height: 400px;
+  line-height: 400px;
+}
+
+.header ul {
+  margin: auto;
+}
+
+.header li {
+  display: inline-block;
+  list-style-type: none;
 }
