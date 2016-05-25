@@ -43,10 +43,12 @@ ul, nav{
 .header > .column {
   text-align: center;
   height: 400px;
-  line-height: 400px;
 }
 
-.middle >.column{
+.middle {
   display: inline-block;
   float: left;
+}
+.info_wrapper{
+ float: right;
 }
