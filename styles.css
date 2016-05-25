@@ -65,10 +65,8 @@ ul, nav{
   float: left;
 }
 .info_wrapper{
- float: right;
  width 80%;
 }
 #nav{
-  position: fixed;
   width: 20%;
 }
