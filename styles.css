@@ -65,6 +65,7 @@ ul, nav{
   float: left;
 }
 .column column-9{
+ position: relative;
  width: 80%;
 }
 #nav{
