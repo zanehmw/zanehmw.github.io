@@ -64,7 +64,7 @@ ul, nav{
   display: block;
   float: left;
 }
-.info_wrapper{
+.column column-9{
  width: 80%;
 }
 #nav{
