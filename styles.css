@@ -19,16 +19,20 @@ img{
   border-color: black;
   border: thin;
 }
+
 h1{
   text-align: center;
   font-size: 50px;
 }
+
 strong{
   font-size: 30px;
 }
+
 p{
   font-size: 20px;
 }
+
 ul, nav{
   margin-left: 5px;
   margin-right: 15px;
@@ -36,16 +40,18 @@ ul, nav{
 }
 
 .row, .column {
-  /* By default, box-sizing is set to content-box */
   box-sizing: border-box;
 }
+
 .row {
   overflow: auto;
 }
+
 .column {
-  border: 2px solid Tomato;
-  border-radius: 20px;
+  /*border: 2px solid Tomato;
+  border-radius: 20px;*/
 }
+
 .row:before, .row:after {
   content: "";
   display: table;
@@ -64,10 +70,23 @@ ul, nav{
   display: block;
   float: left;
 }
-.column column-9{
+
+.column-9{
  position: relative;
  width: 80%;
 }
-#nav{
-  width: 20%;
+
+.column-3{
+ position: relative;
+ width: 20%;
 }
+
+.column-12{
+  margin-bottom: 70px;
+}
+
+.fixed{
+  position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1;}
