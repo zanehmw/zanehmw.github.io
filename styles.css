@@ -38,10 +38,15 @@ ul, nav{
 .column {
   border: 2px solid Tomato;
   border-radius: 20px;
-  text-align: center;
 }
 
 .header > .column {
+  text-align: center;
   height: 400px;
   line-height: 400px;
+}
+
+.middle >.column{
+  display: inline-block;
+  float: left;
 }
