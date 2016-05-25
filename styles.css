@@ -66,5 +66,9 @@ ul, nav{
 }
 .info_wrapper{
  float: right;
- width 400px;
+ width 80%;
+}
+#nav{
+  position: fixed;
+  width: 20%;
 }
