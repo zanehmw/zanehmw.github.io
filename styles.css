@@ -35,9 +35,24 @@ ul, nav{
   display: block;
 }
 
+.row, .column {
+  /* By default, box-sizing is set to content-box */
+  box-sizing: border-box;
+}
+.row {
+  overflow: auto;
+}
 .column {
   border: 2px solid Tomato;
   border-radius: 20px;
+}
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+
+.row:after {
+  clear: both;
 }
 
 .header > .column {
@@ -45,8 +60,8 @@ ul, nav{
   height: 400px;
 }
 
-.middle {
-  display: inline-block;
+.middle >.column{
+  display: block;
   float: left;
 }
 .info_wrapper{
