@@ -9,7 +9,6 @@
   line-height: inherit;
   color: inherit;
 }
-
 html, body{
   font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-style: normal;
@@ -19,11 +18,9 @@ html, body{
   color: #444;
   text-shadow: 1px 1px 0px #fff;
 }
-
 body{
   text-align: center;
 }
-
 h1{
   font-size: 40px;
   line-height: 50px;
@@ -33,22 +30,26 @@ h1 sub{
   color: #aaa;
   vertical-align: baseline;
 }
-
+h2{
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+}
+a{
+  color: #58b;
+}
+a:hover{
+  color: #369;
+}
 img{
   height: 300px;
 }
-
 section{
   border-top: 2px dashed #eee;
   padding: 50px 0;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
-
-p{
-  font-size: 20px;
-}
-
 .hero{
   height: 100vh;
   display: flex;
@@ -69,7 +70,7 @@ p{
   margin-left: auto;
   margin-right: auto;
   transition: transform 1s, box-shadow 1s;
-  background-image: url("wigzaneh2.jpg");
+  background-image: url("images/wigzaneh2.jpg");
   background-size: contain;
 }
 .headshot:hover{
@@ -77,11 +78,42 @@ p{
   box-shadow: 0px 0px 100px 50px #ffe066,
               0px 0px 100px 20px #960 inset;
 }
-
 .headshot img{
   transition: opacity 1s;
 }
-
 .headshot:hover img{
   opacity: 0;
+}
+.list li{
+  display: inline;
+  font-weight: bold;
+}
+.list li:not(:last-child):after{
+  content: ", ";
+}
+.blocklist > li{
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #fff #eee;
+}
+.blocklist > li > div{
+  flex-grow: 1;
+  align-self: center;
+
+}
+.blocklist > li > img{
+  /*width: 400px;*/
+  margin: 0 10px;
+}
+.blocklist >li:nth-child(odd){
+  flex-direction: row;
+  text-align: left;
+  border-left-width: 0;
+}
+.blocklist >li:nth-child(even){
+  flex-direction: row-reverse;
+  text-align: right;
+  border-right-width: 0;
 }
