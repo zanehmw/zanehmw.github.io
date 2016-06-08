@@ -10,16 +10,24 @@
   color: inherit;
 }
 
-body{
-  background-color: "#FFBF00";
+html, body{
   font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   font-style: normal;
   font-variant: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444;
+  text-shadow: 1px 1px 0px #fff;
 }
 
-ul, li{
-  text-decoration: none;
-  list-style-type: none;
+body{
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
 }
 
 img{
@@ -32,10 +40,6 @@ img{
   border: thin;
 }
 
-h1{
-  text-align: center;
-  font-size: 50px;
-}
 
 p{
   font-size: 20px;
