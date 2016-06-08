@@ -38,16 +38,24 @@ img{
   height: 300px;
 }
 
+section{
+  border-top: 2px dashed #eee;
+  padding: 50px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 p{
   font-size: 20px;
 }
 
 .hero{
-  outline: 1px solid red;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 0;
+  padding: 0;
 }
 .hero img{
   width: 100%;
