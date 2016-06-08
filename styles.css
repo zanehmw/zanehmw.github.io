@@ -1,3 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
 body{
   background-color: "#FFBF00";
   font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
@@ -25,68 +37,6 @@ h1{
   font-size: 50px;
 }
 
-strong{
-  font-size: 30px;
-}
-
 p{
   font-size: 20px;
 }
-
-ul, nav{
-  margin-left: 5px;
-  margin-right: 15px;
-  display: block;
-}
-
-.row, .column {
-  box-sizing: border-box;
-}
-
-.row {
-  overflow: auto;
-}
-
-.column {
-  /*border: 2px solid Tomato;
-  border-radius: 20px;*/
-}
-
-.row:before, .row:after {
-  content: "";
-  display: table;
-}
-
-.row:after {
-  clear: both;
-}
-
-.header > .column {
-  text-align: center;
-  height: 400px;
-}
-
-.middle >.column{
-  display: block;
-  float: left;
-}
-
-.column-9{
- position: relative;
- width: 80%;
-}
-
-.column-3{
- position: relative;
- width: 20%;
-}
-
-.column-12{
-  margin-bottom: 70px;
-}
-
-.fixed{
-  position: fixed;
-	top: 0;
-	height: 70px;
-	z-index: 1;}
