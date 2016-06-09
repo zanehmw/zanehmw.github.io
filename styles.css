@@ -42,6 +42,10 @@ a{
 a:hover{
   color: #369;
 }
+address{
+  white-space: pre-line;
+  margin-bottom: 20px;
+}
 img{
   height: 300px;
 }
@@ -51,6 +55,26 @@ section{
   max-width: 1200px;
   margin: 0 auto;
 }
+section:target h1{
+  animation: flash 1s;
+}
+
+@keyframes flash {
+  from{
+    text-shadow: 5px 5px 0px #fd6,
+                -5px -5px 0px #fd6;
+  }
+  to{
+    text-shadow: 0px 0px 0px #fd6
+  }
+}
+
+@-webkit-keyframes flash {
+    from {text-shadow: 5px 5px 0px #fd6,
+                      -5px -5px 0px #fd6;}
+    to {text-shadow: 0px 0px 0px #fd6;}
+}
+
 .hero{
   height: 100vh;
   display: flex;
@@ -123,10 +147,32 @@ section{
   max-width: 700px;
   margin: 0 auto;
 }
-.prose p{
-  margin: 20px 0;
+.prose p,
+.prose ul{
+  margin: 20px auto;
 }
 .prose li{
   list-style-position: inside;
   list-style-type: square;
+}
+.nav{
+  width: 100%;
+  display: flex;
+  position: fixed;
+}
+
+.nav li{
+  list-style-type: none;
+  flex-grow: 1;
+}
+.nav li a{
+  display: block;
+  line-height: 50px;
+  background-color: #fc0;
+  color: #666;
+  text-shadow: 1px 1px 0px #fd6;
+  transition:background-color: 0.2s;
+}
+.nav li a:hover{
+  background-color:  #fa0
 }
