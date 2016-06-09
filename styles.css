@@ -20,6 +20,7 @@ html, body{
 }
 body{
   text-align: center;
+  overflow-x: hidden;
 }
 h1{
   text-align: center;
@@ -51,7 +52,7 @@ img{
 }
 section{
   border-top: 2px dashed #eee;
-  padding: 50px 0;
+  padding: 50px 10px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -77,6 +78,7 @@ section:target h1{
 
 .hero{
   height: 100vh;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -142,6 +144,15 @@ section:target h1{
   text-align: right;
   border-right-width: 0;
 }
+@media (max-width: 500px) {
+  .blocklist li{
+    display: block;
+    text-align: center !important;
+    border-width: 0;
+    margin: 50px 0;
+  }
+
+}
 .prose{
   text-align: justify;
   max-width: 700px;
@@ -159,6 +170,7 @@ section:target h1{
   width: 100%;
   display: flex;
   position: fixed;
+  z-index: 9999;
 }
 
 .nav li{
