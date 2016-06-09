@@ -1,6 +1,2 @@
-[
-  "#FFBF00",
- "#0080FF",
- "#01DF3A",
- "#FF0080"
-]
+My Portfolio
+Things I would like to add: Cool animations using Javascript
