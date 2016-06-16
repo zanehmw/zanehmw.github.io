@@ -102,3 +102,10 @@ function animate() {
 
   renderer.render( scene, camera )
 };
+
+$(function() {
+   $('.scroll-down').click (function() {
+     $('html, body').animate({scrollTop: $('.scrollbutton.ok').offset().top }, 'slow');
+     return false;
+   });
+ });
