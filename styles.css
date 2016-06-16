@@ -233,6 +233,3 @@ section:target h1{
 .nav li a:hover{
   background-color:  #fa0
 }
-.fixed{
-  position: fixed;
-}
