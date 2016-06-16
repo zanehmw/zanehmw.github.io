@@ -11,14 +11,17 @@
 }
 
 html {
-  width: 100%;
-  height: 100%;
-
-  background: #11e8bb; /* Old browsers */
-  background: -moz-linear-gradient(top,  #11e8bb 0%, #8200c9 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #11e8bb 0%,#8200c9 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #11e8bb 0%,#8200c9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11e8bb', endColorstr='#8200c9',GradientType=0 ); /* IE6-9 */
+  /*width: 100%;
+  height: 100%;*/
+}
+#canvas{
+  margin: 0;
+  padding: 0;
+background: #11e8bb; /* Old browsers */
+background: -moz-linear-gradient(top,  #11e8bb 0%, #8200c9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #11e8bb 0%,#8200c9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #11e8bb 0%,#8200c9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#11e8bb', endColorstr='#8200c9',GradientType=0 ); /* IE6-9 */
 }
 
 html, body{
@@ -102,9 +105,7 @@ section:target h1{
   }
 }
 
-
-
-.hero{
+/*.hero{
   height: 100vh;
   min-height: 500px;
   display: flex;
@@ -143,7 +144,7 @@ section:target h1{
 
 .headshot:hover img{
   opacity: 0;
-}
+}*/
 
 .list li{
   display: inline;
