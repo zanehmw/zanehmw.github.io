@@ -9,6 +9,60 @@
   line-height: inherit;
   color: inherit;
 }
+.column-1 { width: 8.33%; }
+.column-2 { width: 16.66%; }
+.column-3 { width: 25%; }
+.column-4 { width: 33.33%; }
+.column-5 { width: 41.66%; }
+.column-6 { width: 50%; }
+.column-7 { width: 58.33%; }
+.column-8 { width: 66.66%; }
+.column-9 { width: 75%; }
+.column-10 { width: 83.33%; }
+.column-11 { width: 91.66%; }
+.column-12 { width: 100%; }
+
+.row {
+  overflow: auto;
+  border: 2px solid rebeccapurple;
+}
+
+.column {
+  float: left;
+  border: 2px solid tomato;
+  /*height: 100vh;*/
+  /*position: fixed;*/
+}
+
+.row, .column {
+  /* By default, box-sizing is set to content-box */
+  box-sizing: border-box;
+}
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+li > a > img{
+  height: 100px;
+  width: 100px;
+  border: solid white 3px;
+  border-radius: 50%;
+}
+
+li a img:hover{
+  border-color: #ffccff;
+}
+
+.nav_bar{
+  /*height: 100vh;
+  position: fixed;*/
+}
 
 .hello{
   position: absolute;
@@ -329,7 +383,7 @@ section:target h1{
 .nav li{
   text-align: center;
   list-style-type: none;
-  display: inline;
+  /*display: inline;*/
   flex-grow: 1;
 }
 
