@@ -329,9 +329,6 @@ section:target h1{
 }
 
 .name{
-  color: #666;
-  text-shadow: 1px 1px 0px #ffccff;
-  font-size: 40px;
 
 }
 
@@ -376,20 +373,49 @@ section:target h1{
     text-align: center;
   }
 
-    .mainNav li:hover {
+.mainNav li:hover {
       transition: all 0.2s cubic-bezier(0.77, 0, 0.175, 1);
       box-shadow: inset 0px -2px 0px 0px #ff80ff;
-    }
+}
 
-  .mainNav a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-  }
+.mainNav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+}
 
 @media screen and (max-width: 768px) {
   .mainNav li {
     width: 70px; }
   .mainNav a {
-    font-size: 1em; } }
+    font-size: 1em; }
+}
+
+/*
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(1.1); }
+  5% {
+    opacity: 0;
+    transform: scale(1.6); }
+  100% {
+    opacity: 1;
+    transform: scale(1.1); }
+  }*/
+
+.intro {
+  /*color: #eee;*/
+  text-shadow: 1px 1px 0px #ffccff;
+  /*font-size: 40px;*/
+  position: absolute;
+  top: 5%;
+  width: 400px;
+  margin-left: 10px;
+  /*margin: 0 auto;*/
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}
