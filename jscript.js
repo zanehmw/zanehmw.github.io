@@ -16,6 +16,7 @@ $(document).ready(function() {
     var scrollPos = $(window).scrollTop(); // get current vertical position
     var winHeight = $(window).height(); // get window height
     var docHeight = $(document).height(); // get doc height for last child
+    console.log(winHeight);
 
     // starts new timeout if new scroll triggered before first timeout finishes
     if (timer) {
