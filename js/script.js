@@ -1,3 +1,4 @@
+console.log("working")
 var renderer, scene, camera, composer, circle, skelet, particle;
 
 window.onload = function() {
