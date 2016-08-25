@@ -9,22 +9,10 @@
   line-height: inherit;
   color: inherit;
 }
-/*
-li > a > img{
-  height: 100px;
-  width: 100px;
-  border: solid white 3px;
-  border-radius: 50%;
-}
-
-li a img:hover{
-  border-color: #ffccff;
-}*/
 
 .hello{
   position: absolute;
   display: block;
-  /*margin: 0 auto*/
   text-align: center;
   color: white;
 }
@@ -37,12 +25,6 @@ li a img:hover{
   padding: 0;
 }
 
-/*.scrollbutton {
-  height: 100vh;
-  width: 100%;
-  display: table;
-
-}*/
 .scrollbutton.ok{
   background-color: #555;
 }
@@ -72,16 +54,16 @@ li a img:hover{
 }
 
 .scroll-down:before {
-    position: absolute;
-    top: calc(50% - 8px);
-    left: calc(50% - 6px);
-    transform: rotate(-45deg);
-    display: block;
-    width: 12px;
-    height: 12px;
-    content: "";
-    border: 2px solid white;
-    border-width: 0px 0 2px 2px;
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 6px);
+  transform: rotate(-45deg);
+  display: block;
+  width: 12px;
+  height: 12px;
+  content: "";
+  border: 2px solid white;
+  border-width: 0px 0 2px 2px;
 }
 
 @keyframes bounce {
@@ -128,10 +110,6 @@ li a img:hover{
   }
 }
 
-html {
-  /*width: 100%;
-  height: 100%;*/
-}
 #canvas{
   margin: 0;
   padding: 0;
@@ -148,7 +126,6 @@ html, body{
   font-variant: normal;
   font-size: 18px;
   line-height: 30px;
-  /*background-color: white;*/
   text-shadow: 1px 1px 0px #fff;
 }
 
@@ -206,7 +183,7 @@ section:target h1{
 @keyframes flash {
   from{
     text-shadow: 5px 5px 0px #ffccff,
-                -5px -5px 0px #ffccff;
+    -5px -5px 0px #ffccff;
   }
   to{
     text-shadow: 0px 0px 0px #ffccff
@@ -216,27 +193,12 @@ section:target h1{
 @-webkit-keyframes flash {
   from{
     text-shadow: 5px 5px 0px #ffccff,
-                -5px -5px 0px #ffccff;
+    -5px -5px 0px #ffccff;
   }
   to{
     text-shadow: 0px 0px 0px #ffccff;
   }
 }
-
-/*.hero{
-  height: 100vh;
-  min-height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 0;
-  padding: 0;
-}
-
-.hero img{
-  width: 100%;
-  height: 100%:
-}*/
 
 section .headshot{
   margin-top: 0;
@@ -258,7 +220,7 @@ section .headshot{
 .headshot:hover{
   transform: rotate(360deg);
   box-shadow: 0px 0px 100px 50px #ffe066,
-              0px 0px 100px 20px #960 inset;
+  0px 0px 100px 20px #960 inset;
 }
 
 .headshot img{
@@ -292,7 +254,6 @@ section .headshot{
 }
 
 .blocklist > li > img{
-  /*width: 400px;*/
   margin: 0 10px;
 }
 
@@ -333,10 +294,6 @@ section .headshot{
   list-style-type: square;
 }
 
-.name{
-
-}
-
 .navbar-absolute {
   bottom: 0;
   position: absolute;
@@ -364,23 +321,23 @@ section .headshot{
   overflow: hidden;
 }
 
-  .mainNav ul {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
+.mainNav ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 
-  .mainNav li {
-    display: inline-block;
-    line-height: 40px;
-    width: 100px;
-    height: 40px;
-    text-align: center;
-  }
+.mainNav li {
+  display: inline-block;
+  line-height: 40px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
 
 .mainNav li:hover {
-      transition: all 0.2s cubic-bezier(0.77, 0, 0.175, 1);
-      box-shadow: inset 0px -2px 0px 0px #ff80ff;
+  transition: all 0.2s cubic-bezier(0.77, 0, 0.175, 1);
+  box-shadow: inset 0px -2px 0px 0px #ff80ff;
 }
 
 .mainNav a {
@@ -393,32 +350,16 @@ section .headshot{
 @media screen and (max-width: 768px) {
   .mainNav li {
     width: 70px; }
-  .mainNav a {
-    font-size: 1em; }
+    .mainNav a {
+      font-size: 1em; }
 }
 
-/*
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-    transform: scale(1.1); }
-  5% {
-    opacity: 0;
-    transform: scale(1.6); }
-  100% {
-    opacity: 1;
-    transform: scale(1.1); }
-  }*/
-
 .intro {
-  /*color: #eee;*/
   text-shadow: 1px 1px 0px #ffccff;
-  /*font-size: 40px;*/
   position: absolute;
   top: 5%;
   width: 400px;
   margin-left: 10px;
-  /*margin: 0 auto;*/
   padding: 20px;
   text-align: center;
   background-color: #fff;
@@ -426,17 +367,14 @@ section .headshot{
 }
 .row, .column {
   box-sizing: border-box;
-
 }
 
 .row {
   overflow: auto;
-  /*border: 2px solid rebeccapurple;*/
 }
 
 .column {
   float: left;
-  /*border: 2px solid tomato;*/
 }
 
 .row:before, .row:after {
